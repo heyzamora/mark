@@ -3,11 +3,11 @@
         Website
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="https://github.com/XzuicerJr/mark?tab=readme-ov-file#-stack">
+    <a href="https://github.com/heyzamora/mark?tab=readme-ov-file#-stack">
         Stack
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="https://github.com/XzuicerJr/mark?tab=readme-ov-file#-contributing">
+    <a href="https://github.com/heyzamora/mark?tab=readme-ov-file#-contributing">
         Contribute
     </a>
     <span>&nbsp;❖&nbsp;</span>
@@ -15,7 +15,7 @@
         X
     </a>
     <span>&nbsp;❖&nbsp;</span>
-    <a href="https://github.com/XzuicerJr/mark?tab=readme-ov-file#-license">
+    <a href="https://github.com/heyzamora/mark?tab=readme-ov-file#-license">
         License
     </a>
 </div>
@@ -29,10 +29,10 @@
 ![Prisma Badge](https://img.shields.io/badge/Prisma-000?logo=prisma&logoColor=fff&style=flat)
 ![Railway Badge](https://img.shields.io/badge/Railway-000?logo=railway&logoColor=fff&style=flat)
 ![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat)
-![GitHub stars](https://img.shields.io/github/stars/XzuicerJr/mark)
-![GitHub issues](https://img.shields.io/github/issues/XzuicerJr/mark)
-![GitHub forks](https://img.shields.io/github/forks/XzuicerJr/mark)
-![GitHub PRs](https://img.shields.io/github/issues-pr/XzuicerJr/mark)
+![GitHub stars](https://img.shields.io/github/stars/heyzamora/mark)
+![GitHub issues](https://img.shields.io/github/issues/heyzamora/mark)
+![GitHub forks](https://img.shields.io/github/forks/heyzamora/mark)
+![GitHub PRs](https://img.shields.io/github/issues-pr/heyzamora/mark)
 
 </div>
 
@@ -50,7 +50,7 @@
 
 ## 🚀 Contributing
 
-1. [Fork](https://github.com/XzuicerJr/mark/fork) the repository.
+1. [Fork](https://github.com/heyzamora/mark/fork) the repository.
 
 2. Install dependencies:
 
@@ -74,4 +74,4 @@ Open up [http://localhost:3000](http://localhost:3000) and make your changes ✨
 
 ## 📄 License
 
-- [**Apache-2.0 license**](https://github.com/XzuicerJr/zamora.dev?tab=Apache-2.0-1-ov-file#readme).
+- [**Apache-2.0 license**](https://github.com/heyzamora/zmra.dev?tab=Apache-2.0-1-ov-file#readme).

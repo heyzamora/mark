@@ -27,10 +27,9 @@ function MonthView({
   logs: HabitLogProps[];
 }) {
   let days: Date[] = [];
-  let dates;
 
   // Full View
-  dates = eachDayOfInterval({
+  const dates = eachDayOfInterval({
     start: subYears(startDate, 1),
     end: startDate,
   });
@@ -110,10 +109,9 @@ function FullView({
   logs: HabitLogProps[];
 }) {
   let days: Date[] = [];
-  let dates;
 
   // Full View
-  dates = eachDayOfInterval({
+  const dates = eachDayOfInterval({
     start: subYears(startDate, 1),
     end: startDate,
   });
