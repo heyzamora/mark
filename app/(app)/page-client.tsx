@@ -11,7 +11,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import useHabits from "@/lib/swr/use-habits";
-import { cn } from "@/lib/utils";
 import { Archive, ArrowLeft, Check, Settings2 } from "lucide-react";
 import Link from "next/link";
 import { Suspense } from "react";
@@ -50,22 +49,6 @@ function Filters() {
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
-
-      {/* TODO: Change this for Tabs */}
-      <Button
-        onClick={() => {
-          queryParams(!!searchParamsObj.view ? { del: ["view"] } : {});
-        }}
-      >
-        Full
-      </Button>
-      <Button
-        onClick={() => {
-          queryParams({ set: { view: "month" } });
-        }}
-      >
-        Month
-      </Button>
     </div>
   );
 }
@@ -75,7 +58,6 @@ function HomeView() {
   const { habits, isValidating } = useHabits();
 
   const archived = searchParamsObj.archived === "true";
-  const monthView = searchParamsObj.view === "month";
 
   return (
     <>
@@ -88,12 +70,7 @@ function HomeView() {
           <p>Loading...</p>
         </div>
       ) : !!habits?.length ? (
-        <div
-          className={cn(
-            "xxl:grid-cols-3! grid grid-cols-1 gap-2 md:grid-cols-2", // Full View
-            monthView && "flex flex-wrap items-center",
-          )}
-        >
+        <div className="xxl:grid-cols-3! grid grid-cols-1 gap-2 md:grid-cols-2">
           {habits.map((habit) => (
             <Habit key={`habit-${habit.id}`} {...habit} />
           ))}
